@@ -75,7 +75,7 @@ Sherry used this section for local registration
 {% if page.eventbrite %}
 <H2>Registration</H2>
 <p>Please register on the Clemson University Library Calendar at this link:<BR>
-https://clemson.libcal.com/event/7277730<BR>
+<a http="https://clemson.libcal.com/event/7277730" target="_blank">https://clemson.libcal.com/event/7277730</a><BR>
   </P>
 {% comment %} 
 <strong>Some adblockers block the registration window. If you do not see the
