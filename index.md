@@ -18,7 +18,7 @@ helper: ["Coming Soon"]     # boxed, comma-separated list of helpers' names, lik
 email: ["msheff@clemson.edu","shlake@virginia.edu"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes:  # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
 collaborative_notes: https://pad.carpentries.org/2020-12-01-Clemson-online-NNLM
-eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
+eventbrite:     "1234567890AB"      # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
 
 {% comment %} See instructions in the comments below for how to edit specific sections of this workshop template. {% endcomment %}
@@ -67,8 +67,15 @@ This block includes the Eventbrite registration widget if
 'eventbrite' has been set in the header.  You can delete it if you
 are not using Eventbrite, or leave it in, since it will not be
 displayed if the 'eventbrite' field in the header is not set.
+
+Sherry used this section for local registration
+
 {% endcomment %}
 {% if page.eventbrite %}
+<p>Please register on the Clemson University Library Calendar at this link:<BR>
+https://clemson.libcal.com/event/7277730<BR>
+  </P>
+ {% comment %} 
 <strong>Some adblockers block the registration window. If you do not see the
   registration box below, please check your adblocker settings.</strong>
 <iframe
@@ -79,6 +86,7 @@ displayed if the 'eventbrite' field in the header is not set.
   scrolling="auto">
 </iframe>
 {% endif %}
+  {% endcomment %}
 
 
 <h2 id="general">General Information</h2>
