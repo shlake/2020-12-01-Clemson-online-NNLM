@@ -71,11 +71,12 @@ displayed if the 'eventbrite' field in the header is not set.
 Sherry used this section for local registration
 
 {% endcomment %}
+
 {% if page.eventbrite %}
 <p>Please register on the Clemson University Library Calendar at this link:<BR>
 https://clemson.libcal.com/event/7277730<BR>
   </P>
- {% comment %} 
+{% comment %} 
 <strong>Some adblockers block the registration window. If you do not see the
   registration box below, please check your adblocker settings.</strong>
 <iframe
@@ -86,7 +87,7 @@ https://clemson.libcal.com/event/7277730<BR>
   scrolling="auto">
 </iframe>
 {% endif %}
-  {% endcomment %}
+{% endcomment %}
 
 
 <h2 id="general">General Information</h2>
