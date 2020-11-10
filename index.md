@@ -86,8 +86,9 @@ https://clemson.libcal.com/event/7277730<BR>
   height="280px"
   scrolling="auto">
 </iframe>
-{% endif %}
 {% endcomment %}
+{% endif %}
+
 
 
 <h2 id="general">General Information</h2>
