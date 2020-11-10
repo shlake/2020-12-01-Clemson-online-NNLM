@@ -73,6 +73,7 @@ Sherry used this section for local registration
 {% endcomment %}
 
 {% if page.eventbrite %}
+<H2>REGISTRATION</H2>
 <p>Please register on the Clemson University Library Calendar at this link:<BR>
 https://clemson.libcal.com/event/7277730<BR>
   </P>
