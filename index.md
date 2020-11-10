@@ -58,6 +58,14 @@ It looks like you are setting up a website for a Software Carpentry curriculum b
 {% endunless %}
 {% endif %}
 
+REGISTRATION
+
+<p> Please register on the Clemson University Library Calendar at this link:
+  <BR>
+ https://clemson.libcal.com/event/7277730 
+ <BR>
+   </P>
+
 {% comment %}
 EVENTBRITE
 
